@@ -1,0 +1,182 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+
+header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	color: #fff;
+	padding-bottom: 72px;
+}
+
+.offer p{
+	margin-top: 0;
+}
+
+p{
+	line-height: 1.7em;
+}
+
+.logo {
+	padding-top: 66px;
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer{
+	padding-top: 147px;
+	width: 569px;
+}
+
+.title{
+	width: 565px;
+	font-size: 37px;
+}
+
+
+.title span{
+	font-size: 59px;
+}
+
+.intro{
+	padding-top: 47px;
+	font-family: 'Open Sans', sans-serif;
+	width: 405px;
+	font-size: 16px;
+	padding-bottom: 21px;
+}
+
+.button{
+	background: #ffd429;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	border: 0px;
+	width: 220px;
+	padding: 20px;
+	transition: all 0.5s ease;
+	font-size: 15px;
+}
+
+.button:hover{
+	background: #eabd09;
+}
+
+.travels{
+	padding-left: 36px;
+	padding-top: 10px;
+}
+
+.profit{
+	padding-top: 108px;
+	padding-bottom: 83px;
+}
+
+h1, h2, h3{
+	margin: 0px;
+}
+
+.section-title{
+	font-size: 30px;
+	text-align: center;
+}
+
+.profits{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.section-profit{
+	font-size: 19px;
+	padding-top: 30px;
+	padding-bottom: 17px;
+}
+
+.about{
+	width: 300px;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 0px;
+}
+
+.beach-width{
+	width: 270px;
+}
+
+.time{
+	padding-top: 81px;
+}
+
+.beach{
+	padding-top: 73px;
+}
+
+.launch{
+	padding-top: 71px;
+}
+
+.order{
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 102px;
+}
+
+.last-title{
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 57px;
+}
+
+.form{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+
+
+input{
+	font-size: 15px;
+	padding-left: 25px;
+	width: 343px;
+	height: 48px;
+	margin: 15px 0;
+	box-sizing: border-box;
+	margin: 7.5px;
+}
+
+.button-width{
+	margin-top: 7.5px;
+	width: 343px;
+}
+
+.footer{
+	background: #164d7a;
+	padding-top: 62px;
+	padding-bottom: 66px;
+}
+
+.credits{
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
