@@ -37,10 +37,10 @@ p{
 .wrap{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer{
-	padding-top: 147px;
 	width: 569px;
 }
 
@@ -109,14 +109,13 @@ h1, h2, h3{
 }
 
 .about{
-	width: 300px;
 	font-size: 15px;
 	font-weight: 400;
 	margin-top: 0px;
 }
 
-.beach-width{
-	width: 270px;
+.text-width{
+	width: 300px;
 }
 
 .time{
@@ -181,3 +180,160 @@ input{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
+
+/*responsive*/
+
+@media screen and (max-width: 1400px){
+	.container{
+		width: 1140px;
+	}
+	.title{
+		width: auto;
+		}
+	.intro{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+	.travels{
+		width: 500px;
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+	.travels{
+		width: 330px;
+	}
+	.title{
+		font-size: 30px;
+	}
+	.title span{
+		font-size: 45px;
+		line-height: 0.8em;
+	}
+	.intro{
+		padding-bottom: 0;
+		padding-top: 25px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+	.logo{
+		display: block;	
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.offer{
+		width: auto;
+		text-align: center;
+	}
+	.wrap{
+		flex-direction: column;
+	}
+	.title{
+		margin-top: 40px;
+		font-size: 37px;
+	}
+	.intro{
+		font-size: 22px;
+	}
+	.offer .button{
+		font-size: 17px;
+		width: 240px;
+		margin-bottom: 20px;
+	}
+	.profits{
+		flex-direction: column;
+		align-items: center;
+	}
+	.section-title{
+		font-size: 40px;
+	}
+	.section-profit{
+		font-size: 30px;
+	}
+	.about{
+		font-size: 22px;
+	}
+	.text-width{
+		width: auto;
+	}
+	input{
+		font-size: 18px;
+	}
+	.form button{
+		font-size: 17px;
+	}
+	.credits{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.container{
+		width: auto;
+		margin-left: 5px;
+	}
+	.travels{
+		width: 150px;
+	}
+	.offer{
+		text-align: center;
+		width: auto;
+	}
+	.title{
+		font-size: 25px;
+	}
+	.title span{
+		font-size: 30px;
+	}
+	.intro{
+		font-size: 18px;
+	}
+	.offer .button{
+		font-size: 10px;
+	}
+	.section-title{
+		font-size: 20px;
+	}
+	.section-profit{
+		font-size: 18px;
+	}
+	.about{
+		font-size: 15px;
+	}
+	.text-width{
+		width: auto;
+	}
+	input{
+		font-size: 15px;
+		width: 280px;
+		margin: 6px;
+		padding-left: 13px;
+	}
+	.form button{
+		font-size: 15px;
+		width: 280px;
+	}
+	.last-title{
+		font-size: 20px;
+	}
+	.credits{
+		font-size: 11px;
+	}
+}
+
+
+
+
