@@ -284,6 +284,7 @@ input{
 	.container{
 		width: auto;
 		margin-left: 5px;
+		margin-right: 5px;
 	}
 	.travels{
 		width: 150px;
